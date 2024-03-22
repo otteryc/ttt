@@ -11,7 +11,7 @@ MCTS_LDFLAGS := $(LDFLAGS) -lm
 
 GIT_HOOKS := .git/hooks/applied
 
-all: $(GIT_HOOKS) $(PROG)
+all: $(PROG)
 
 $(GIT_HOOKS):
 	@scripts/install-git-hooks
